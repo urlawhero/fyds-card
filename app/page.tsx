@@ -45,13 +45,19 @@ export default function TechCard() {
             Antonis Nikolaides
           </h1>
           
-          <h2 className="text-lg font-semibold text-white mb-1">
+			<h2 className="text-lg font-semibold text-white mb-1">
             For You Digital Solutions
           </h2>
+          
+          {/* New Description Line */}
+          <p className="text-xs text-blue-200/80 uppercase tracking-widest mb-3 font-medium">
+            Web Design • App Development • Automation
+          </p>
 
           <p className="text-sm font-medium text-gray-400 mb-4 flex items-center justify-center gap-2">
             <FaCode className="text-blue-500" /> Founder & Full-Stack Dev
           </p>
+
           
           <div className="flex flex-wrap justify-center gap-2 mb-8">
             <span className="px-3 py-1 text-xs rounded-full bg-white/5 border border-white/5 text-gray-300">Next.js</span>
