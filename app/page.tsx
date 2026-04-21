@@ -22,7 +22,7 @@ export default function TechCard() {
             <div className="w-32 h-32 rounded-full p-1 border-2 border-purple-500/50 overflow-hidden shadow-lg shadow-purple-500/20">
               {/* Ensure profile.jpg is in your public folder */}
                <Image 
-                src="/profile.jpg" 
+                src="/IMG.jpg" 
                 alt="Antonis" 
                 width={128} 
                 height={128} 
